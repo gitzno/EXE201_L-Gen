@@ -1,26 +1,51 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <LayoutMain/>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+//import here with link ./styles/app.css
+import "./components/styles/app.css";
+import LayoutMain from "./components/layout/TheMainLayout.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    LayoutMain,
+  },
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@font-face {
+    font-family: Figma-font;
+    src: url(./assets/font/WhyteInktrap-Medium.ttf);
 }
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./assets/font/Montserrat-400.ttf);
+}
+
+@font-face {
+    font-family: Montserrat_500;
+    src: url(./assets/font/Montserrat-500.ttf);
+}
+
+@font-face {
+    font-family: Montserrat_600;
+    src: url(./assets/font/Montserrat-600.ttf);
+}
+
+@font-face {
+    font-family: Montserrat_700;
+    src: url(./assets/font/Montserrat-700.ttf);
+}
+
+#app {
+  font-family: Montserrat_600;
+  font-size: 1vw;
+}
+
+
 </style>
