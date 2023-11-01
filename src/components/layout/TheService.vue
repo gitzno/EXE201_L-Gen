@@ -8,7 +8,7 @@
                 </div>
             </div>
             <div id="frameImgs">
-                <frameImg id="frameImg" img="1"></frameImg>
+                <frameImg id="frameImg" img="i6" pointer="0"></frameImg>
             </div>
             <div class="textContent ">
                 <div id="header" class="headercourse  headercourse3">
@@ -27,14 +27,13 @@
                     </li>
                 </ul>
                 <div class="btn-group">
-                    <buttonMain class="btn-course" color="background-color: #0FA958; color: white;" src="#"
-                        text="Xem lộ trình"></buttonMain>
-                    <buttonMain class="btn-course" src="#" text="Liên hệ ngay"></buttonMain>
+                    <buttonMain  class="btn-course" color="background-color: #0FA958; color: white;"
+                        text="Xem lộ trình" ></buttonMain>
+                    <buttonMain class="btn-course" src="#section-3" text="Liên hệ ngay"></buttonMain>
                 </div>
                 <br />
             </div>
         </div>
-
     </div>
 </template>
   
@@ -46,9 +45,7 @@ export default {
     components: {
         headerMain,
         frameImg,
-
         buttonMain,
-
     },
 };
 </script>
@@ -111,24 +108,29 @@ export default {
     width: 100%;
     margin-bottom: 50px;
 }
+
 .contents-80>#header>img {
     height: 50%;
 }
-.headercourse2{
-        display: none;
-        
-    }
+
+.headercourse2 {
+    display: none;
+
+}
+
 @media (max-width: 1200px) {
 
-    .headercourse2{
+    .headercourse2 {
         display: block;
     }
+
     .headercourse {
         width: 100%;
         display: none;
         align-items: center;
         justify-content: center;
     }
+
     .headercourse3 {
         display: none !important;
     }

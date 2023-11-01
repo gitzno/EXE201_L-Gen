@@ -9,7 +9,7 @@
             </headerMain>
             <frame class="frameTextss" text="UI/UX"></frame>
         </div>
-        <buttonMain class="btn-main" src="#" text="Khám phá thêm"></buttonMain>
+        <buttonMain class="btn-main" src="#section-1" text="Khám phá thêm"></buttonMain>
     </div>
 </template>
   

@@ -55,4 +55,5 @@ export default {
 .contents-80 {
     width: 1400px;
 }
+
 </style>

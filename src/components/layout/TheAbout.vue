@@ -6,7 +6,7 @@
         </div>
         <div id="content">
             <div id="frameImgs">
-                <frameImg id="frameImg" img="1"></frameImg>
+                <frameImg id="frameImg" img="0" pointer="0"></frameImg>
             </div>
             <div class="textContent">
                 L-Gen là nhóm gồm 5 bạn trẻ có niềm đam mê dành cho công nghệ.<br><br>
@@ -22,7 +22,8 @@
   
 <script>
 import headerMain from "../base/headerMain.vue";
-import frameImg from "../base/franeImg.vue"
+import frameImg from "../base/franeImg.vue";
+
 export default {
     components: {
         headerMain,

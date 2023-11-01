@@ -30,7 +30,7 @@ const list = ref([{
   id: 0,
   linkId: '#section-0',
   text: 'Trang Chủ',
-  isActive: true
+  isActive: false
 },
 {
   id: 1,

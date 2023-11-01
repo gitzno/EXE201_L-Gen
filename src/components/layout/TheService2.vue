@@ -18,12 +18,12 @@
                     </li>
                 </ul>
                 <div class="btn-group">
-                    <buttonMain class="btn-course" src="#" text="Liên hệ ngay"></buttonMain>
+                    <buttonMain class="btn-course" src="#section-3" text="Liên hệ ngay"></buttonMain>
                 </div>
                 <br />
             </div>
             <div id="frameImgs">
-                <frameImg id="frameImg" img="1"></frameImg>
+                <frameImg id="frameImg" img="i7" pointer="0"></frameImg>
             </div>
         </div>
 
@@ -91,9 +91,11 @@ export default {
     font-family: Montserrat_500;
     line-height: 125%;
 }
+
 .contents-80>#content>.newtextContent {
     margin-left: 0px;
 }
+
 .contents-80>#content>#frameImgs {
     width: 40%;
 }
@@ -105,24 +107,36 @@ export default {
     width: 100%;
     margin-bottom: 50px;
 }
+
 .contents-80>#header>img {
     height: 50%;
 }
-.headercourse2{
-        display: none;
-        
-    }
+
+.headercourse2 {
+    display: none;
+
+}
+
 @media (max-width: 1200px) {
 
-    .headercourse2{
+    .headercourse>img{
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .headercourse2 {
         display: block;
     }
+
     .headercourse {
         width: 100%;
         display: none;
         align-items: center;
         justify-content: center;
     }
+
     .headercourse3 {
         display: none !important;
     }
@@ -144,5 +158,4 @@ export default {
         width: 50%;
         margin: 50px 0px;
     }
-}
-</style>
+}</style>
